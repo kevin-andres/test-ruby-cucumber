@@ -1,0 +1,15 @@
+app_type: web
+browser: chrome
+execution_mode: local
+server: http://localhost:4444/wd/hub
+implicit_wait_timeout: 5
+ajax_timeout: 30
+wait_timeout: 30
+browser_window_maximize: true
+
+logger:
+  level: debug
+  type: console
+  log_file: ./target/test.log
+
+test_data: ./testdata/production.yaml

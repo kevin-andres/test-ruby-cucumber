@@ -1,0 +1,11 @@
+url: http://www.nejm.org
+
+create_user:
+  email: Autoreg+[TIMESTAMP]@gmail.com
+  password: password
+  first_name: Auto_FN[TIMESTAMP]
+  last_name: auto_LN
+  country: United Kingdom
+  professional_category: Physician
+  speciality: Cardiology
+  place_of_work_or_study: Hospital, Community
