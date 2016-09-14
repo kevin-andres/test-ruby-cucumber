@@ -8,7 +8,7 @@ require 'cucumber/rake/task'
 require 'colorize'
 
 # ci-reporter gem
-require 'ci/reporter/rake/rspec'
+#require 'ci/reporter/rake/rspec'
 require 'ci/reporter/rake/cucumber'
 
 # CI Reports target folder
