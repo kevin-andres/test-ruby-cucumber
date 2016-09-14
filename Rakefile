@@ -9,7 +9,7 @@ require 'colorize'
 
 # ci-reporter gem
 #require 'ci/reporter/rake/rspec'
-require 'ci/reporter/rake/cucumber'
+#require 'ci/reporter/rake/cucumber'
 
 # CI Reports target folder
 ENV['CI_REPORTS'] = "./target"
