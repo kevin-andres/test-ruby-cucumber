@@ -22,7 +22,7 @@ When "I create an account with following details" do |table|
       @data.place_of_work_or_study
     )
   @app.automation.register_wizard.enter_name_form.submit @data.first_name, @data.last_name
-  @app.automation.register_wizard.email_updates_form.submit
+  #@app.automation.register_wizard.email_updates_form.submit
 
 end
 

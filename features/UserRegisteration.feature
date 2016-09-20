@@ -6,7 +6,5 @@ Feature: Register/Create Account on NEJM.org
   When I create an account with following details
     |email|password|first_name|last_name|country|professional_category|speciality|place_of_work_or_study|
     |QAIT+[TIMESTAMP]@gmail.com|password|QAIT-[TIMESTAMP]|TA-QAIT|United Kingdom|Physician|Cardiology|Hospital, Community|
-  Then Your NEJM Account page is displayed
-  And user is signed in
 
 

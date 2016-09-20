@@ -1,5 +1,5 @@
 app_type: web
-browser: firefox
+browser: chrome
 execution_mode: local
 server: http://localhost:4444/wd/hub
 implicit_wait_timeout: 5
