@@ -31,6 +31,7 @@ GEM
     hash-to-ostruct (0.0.1)
       hoe (>= 1.8.0)
       newgem (>= 1.2.3)
+    headless (2.3.1)
     hoe (3.15.1)
       rake (>= 0.8, < 12.0)
     i18n (0.7.0)
@@ -84,6 +85,7 @@ DEPENDENCIES
   colorize
   cucumber
   hash-to-ostruct
+  headless
   json
   page-object
   rake
