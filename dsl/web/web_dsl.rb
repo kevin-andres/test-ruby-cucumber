@@ -10,6 +10,7 @@ class WebDsl
 
   def initialize dsl
     browser_sym = dsl.config.browser.downcase.to_sym
+    p "BROWSER UNDER TEST IS:- #{browser_sym}"
     if dsl.config.execution_mode.to_s.downcase == "local"
       @driver = Selenium::WebDriver.for(browser_sym)
     elsif dsl.config.execution_mode.to_s.downcase == "remote"
